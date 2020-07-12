@@ -2,21 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>guava</artifactId>
-  <packaging>pom</packaging>
-  <name>Module-01-Guava</name>
-  <version>0.01-SNAPSHOT</version>
-  <dependencies>
 
-    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>28.2-jre</version>
-    </dependency>
+  <groupId>com.example</groupId>
+  <artifactId>apachecommons</artifactId>
+  <name>Module-04-ApacheCommons</name>
+  <packaging>pom</packaging>
+  <version>0.01-SNAPSHOT</version>
+
+  <dependencies>
 
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -25,6 +19,14 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.10</version>
+    </dependency>
+
   </dependencies>
+
 
 </project>
